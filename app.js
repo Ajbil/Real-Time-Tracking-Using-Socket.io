@@ -27,6 +27,8 @@ app.get("/", function(req,res){
     res.render("index");
 });
 
+//added
+
 // server.listen(3000);
 server.listen(3001, '0.0.0.0', () => {
     console.log("Server running on http://192.168.23.4:3000");
